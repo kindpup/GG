@@ -9,7 +9,7 @@ GenericEntity : "{8B55F8686833B12B}Prefabs/Weapons/Core/FragGrenade_Base.et" {
   TimerTriggerComponent "{6A4F79E6023BD5FF}" {
    PROJECTILE_EFFECTS {
     ExplosionEffect "{6A4F79E6023BD592}" {
-     EffectPrefab "{9C7B7B7ECDC3A596}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.et"
+     EffectPrefab "{F1929AE7DC824D81}Prefabs/Weapons/Warheads/Warhead_ExplosiveCharge_TNT400g.et"
      ParticleEffect "{D1C900C94DD3D4B2}Particles/Weapon/Smoke_grenade_M18_Green.ptc"
      SoundEvent "SOUND_EXPLOSION"
     }

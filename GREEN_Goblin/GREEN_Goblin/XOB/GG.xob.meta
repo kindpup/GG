@@ -3,13 +3,33 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{6A4F72E24445A443}" {
-     SourceMaterial "Material"
-     AssignedMaterial "{C75D30456390865C}XOB/Data/Material.emat"
+    MaterialAssignClass "{6A4F7AF53005FCD5}" {
+     SourceMaterial "LED_glass"
+     AssignedMaterial "{EC09B1EE79A85F67}XOB/Data/LED_glass.emat"
     }
-    MaterialAssignClass "{6A4F72E24445A475}" {
-     SourceMaterial "ROBOT_RUST_MATERIAL_NODE_TREE"
-     AssignedMaterial "{63F6A0B8D3007318}XOB/Data/ROBOT_RUST_MATERIAL_NODE_TREE.emat"
+    MaterialAssignClass "{6A4F7AF53005FCFC}" {
+     SourceMaterial "green_smokes"
+     AssignedMaterial "{31F63061BC6C07DE}XOB/Data/green_smokes.emat"
+    }
+    MaterialAssignClass "{6A4F7AF53005FCF1}" {
+     SourceMaterial "honeycombs"
+     AssignedMaterial "{8BCA0C12568CCF9C}XOB/Data/honeycombs.emat"
+    }
+    MaterialAssignClass "{6A4F7AF53005FCF7}" {
+     SourceMaterial "metal_rim_bottom"
+     AssignedMaterial "{2208AD9279EE85D9}XOB/Data/metal_rim_bottom.emat"
+    }
+    MaterialAssignClass "{6A4F7AF53005FCE0}" {
+     SourceMaterial "metal_rim_bottom_blcack"
+     AssignedMaterial "{C14D36A98FA0560B}XOB/Data/metal_rim_bottom_blcack.emat"
+    }
+    MaterialAssignClass "{6A4F7AF53005FC9D}" {
+     SourceMaterial "orang_metal_part"
+     AssignedMaterial "{792EF134E657A84E}XOB/Data/orang_metal_part.emat"
+    }
+    MaterialAssignClass "{6A4F7AF53005FC92}" {
+     SourceMaterial "rivets"
+     AssignedMaterial "{90561F99DD5B1BE5}XOB/Data/rivets.emat"
     }
    }
    MeshParams {
@@ -26,8 +46,6 @@ MetaFileClass {
     MeshParam "orang metal part" {
     }
     MeshParam rivets {
-    }
-    MeshParam "white LEDs" {
     }
    }
    Common TXOCommonClass "{6A4F72E244926EFC}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
