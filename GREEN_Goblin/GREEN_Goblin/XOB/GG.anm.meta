@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B56CA0E567F496DA}XOB/GG.anm"
+ Configurations {
+  FBXAnimResourceClass PC {
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass XBOX_SERIES : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass PS5 : PC {
+  }
+  FBXAnimResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GameProject {
+ ID "GREENGoblin"
+ GUID "6A4F72E23450FF1D"
+ TITLE "GREEN_Goblin"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
