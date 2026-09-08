@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{27670D3EC708A054}XOB/Data/LED_glass/GG_LED glass_BCR.edds"
+ NMOMap "{1FBFB6AC1E7FF2CA}XOB/Data/LED_glass/GG_LED glass_NMO.edds"
+}

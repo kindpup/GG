@@ -9,8 +9,8 @@ GenericEntity : "{8B55F8686833B12B}Prefabs/Weapons/Core/FragGrenade_Base.et" {
   TimerTriggerComponent "{6A4F79E6023BD5FF}" {
    PROJECTILE_EFFECTS {
     ExplosionEffect "{6A4F79E6023BD592}" {
-     EffectPrefab "{F1929AE7DC824D81}Prefabs/Weapons/Warheads/Warhead_ExplosiveCharge_TNT400g.et"
-     ParticleEffect "{D1C900C94DD3D4B2}Particles/Weapon/Smoke_grenade_M18_Green.ptc"
+     EffectPrefab "{AE592496B67D2953}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.et"
+     ParticleEffect "{88274B5BB3D87361}Particles/Weapon/Green.ptc"
      SoundEvent "SOUND_EXPLOSION"
     }
     AIExplosionEffect "{6A4F79E6023BD594}" {
@@ -22,6 +22,11 @@ GenericEntity : "{8B55F8686833B12B}Prefabs/Weapons/Core/FragGrenade_Base.et" {
    InitSpeed 30
    Mass 0.397
    TimeToLive 4.2
+   ProjectileEffects {
+    ExplosionEffect "{65ED0010C8BA00FE}" {
+     EffectPrefab "{AE592496B67D2953}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.et"
+    }
+   }
    BallisticTableConfig "{2FF9970869F6D99C}Configs/Weapons/AIBallisticTables/AIBT_Grenade_M67.conf"
   }
   InventoryItemComponent "{51FAA3E3CF6F087A}" {
@@ -60,8 +65,8 @@ GenericEntity : "{8B55F8686833B12B}Prefabs/Weapons/Core/FragGrenade_Base.et" {
    Enabled 0
    Attributes SCR_ItemAttributeCollection "{6A4F79E6023BD582}" {
     ItemDisplayName WeaponUIInfo "{6A4F79E6023BD583}" {
-     Name "#AR-Weapon_M67_Name"
-     Description "#AR-Weapon_M67_Description"
+     Name "Pumpkin Bombs"
+     Description "Green Goblin Pumpkin Bombs"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{6A4F79E6023BD584}" {
      Weight 0.39

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{DEC046FF1B5C95A1}Particles/Weapon/Smoke_grenade_M715_Green.ptc"
+ Name "{88274B5BB3D87361}Particles/Weapon/Green.ptc"
  Configurations {
   PTCResourceClass PC : "{4B4500E061CCD624}Configs/System/ResourceTypes/PC/ParticleEffect.conf" {
   }

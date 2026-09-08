@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{4E296E7ECCB835CD}XOB/Data/rivets/GG_rivets_BCR.edds"
+ NMOMap "{76F1D5EC15CF6753}XOB/Data/rivets/GG_rivets_NMO.edds"
+}

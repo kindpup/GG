@@ -1,0 +1,5 @@
+MatPBRBasic {
+ AOScale 5
+ BCRMap "{FDCB7426AB66F6F4}XOB/Data/metal_rim_bottom_blcack/GG_metal rim bottom_blcack_BCR.edds"
+ NMOMap "{C513CFB47211A46A}XOB/Data/metal_rim_bottom_blcack/GG_metal rim bottom_blcack_NMO.edds"
+}

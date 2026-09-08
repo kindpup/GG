@@ -5,31 +5,31 @@ MetaFileClass {
    MaterialAssigns {
     MaterialAssignClass "{6A4F7AF53005FCD5}" {
      SourceMaterial "LED_glass"
-     AssignedMaterial "{EC09B1EE79A85F67}XOB/Data/LED_glass.emat"
+     AssignedMaterial "{EC09B1EE79A85F67}XOB/Data/LED_glass/LED_glass.emat"
     }
     MaterialAssignClass "{6A4F7AF53005FCFC}" {
      SourceMaterial "green_smokes"
-     AssignedMaterial "{31F63061BC6C07DE}XOB/Data/green_smokes.emat"
+     AssignedMaterial "{31F63061BC6C07DE}XOB/Data/green_smokes/green_smokes.emat"
     }
     MaterialAssignClass "{6A4F7AF53005FCF1}" {
      SourceMaterial "honeycombs"
-     AssignedMaterial "{8BCA0C12568CCF9C}XOB/Data/honeycombs.emat"
+     AssignedMaterial "{8BCA0C12568CCF9C}XOB/Data/honeycombs/honeycombs.emat"
     }
     MaterialAssignClass "{6A4F7AF53005FCF7}" {
      SourceMaterial "metal_rim_bottom"
-     AssignedMaterial "{2208AD9279EE85D9}XOB/Data/metal_rim_bottom.emat"
+     AssignedMaterial "{2208AD9279EE85D9}XOB/Data/metal_rim_bottom/metal_rim_bottom.emat"
     }
     MaterialAssignClass "{6A4F7AF53005FCE0}" {
      SourceMaterial "metal_rim_bottom_blcack"
-     AssignedMaterial "{C14D36A98FA0560B}XOB/Data/metal_rim_bottom_blcack.emat"
+     AssignedMaterial "{C14D36A98FA0560B}XOB/Data/metal_rim_bottom_blcack/metal_rim_bottom_blcack.emat"
     }
     MaterialAssignClass "{6A4F7AF53005FC9D}" {
      SourceMaterial "orang_metal_part"
-     AssignedMaterial "{792EF134E657A84E}XOB/Data/orang_metal_part.emat"
+     AssignedMaterial "{792EF134E657A84E}XOB/Data/orang_metal_part/orang_metal_part.emat"
     }
     MaterialAssignClass "{6A4F7AF53005FC92}" {
      SourceMaterial "rivets"
-     AssignedMaterial "{90561F99DD5B1BE5}XOB/Data/rivets.emat"
+     AssignedMaterial "{90561F99DD5B1BE5}XOB/Data/rivets/rivets.emat"
     }
    }
    MeshParams {

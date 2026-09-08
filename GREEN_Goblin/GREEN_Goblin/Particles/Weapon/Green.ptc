@@ -34,22 +34,22 @@ EffectDef {
    AnimOnce 0
    AnimFPS 60
    LifetimeByAnim 0
-   Lifetime 5
-   LifetimeRND 0
+   Lifetime 13
+   LifetimeRND 4
    LifetimeVelFactor 0.15
    Color {
-    0 0.199 0.479 0.299 0.2825 0.199 0.9805 0.299
+    0 0.199 0.479 0.299 1 0.199 0.479 0.299
    }
    Alpha {
     0 0 0.038 0.784 0.1504 1 0.596 0.8556 1 0
    }
    RotationSpeed {
-    0 0.25 0.2879 0.9348 0.488 0.437 1 0.306
+    0 0.25 0.08 0.886 0.488 0.437 1 0.306
    }
    Size {
     0 0.072 0.1045 0.4647 0.3002 0.7029 0.629 0.653 1 1
    }
-   EmittingTime 4.6
+   EmittingTime 1.501
    Repeat 0
    ColorMast {
     0 1 1 1 0.431 1 1 1 1 1 1 1
