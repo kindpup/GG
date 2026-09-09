@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Cull none
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{6B4D7359E4E0FD10}XOB/GAS/head/Data/NBC_Haed_MI_M53A1_Mask_BCR.edds"
+ NMOMap "{5395C8CB3D97AF8E}XOB/GAS/head/Data/NBC_Haed_MI_M53A1_Mask_NMO.edds"
+}

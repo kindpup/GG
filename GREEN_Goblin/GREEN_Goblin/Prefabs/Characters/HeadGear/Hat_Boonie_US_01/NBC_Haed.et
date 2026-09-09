@@ -1,0 +1,24 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{B00A3FA1906E868B}XOB/GAS/head/NBC_Haed.xob"
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "NBC_Head"
+     Description "NBC"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{52C8D6017161AECA}" {
+     SizeSetupStrategy Manual
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{B00A3FA1906E868B}XOB/GAS/head/NBC_Haed.xob"
+   ItemModel "{F7FB1916DF015624}XOB/GAS/head/NBC_Haed_FL.xob"
+   DeflatedModel "{F7FB1916DF015624}XOB/GAS/head/NBC_Haed_FL.xob"
+  }
+ }
+}

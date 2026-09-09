@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{905CA385E5FEE311}XOB/GAS/Butt'/Data/MI_Suit_NBC_ADA_AMCU.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

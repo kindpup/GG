@@ -1,0 +1,51 @@
+GenericEntity : "{80C8C9227D2C7CF5}Prefabs/Characters/Core/Footwear_Base.et" {
+ ID "5244C46FA7C5E08C"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{6A5178F253652A4D}" {
+    ItemDisplayName UIInfo "{6A5178F253652A70}" {
+     Name "NBC_Boots"
+     Description "NBC"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A5178F253652A73}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A5178F253652A76}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2.5
+      FOV 10
+      PreviewModel "{2D13DB50F18C79C0}Assets/Characters/Footwear/CombatBoots_US_01/CombatBoots_US_01_item.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Object "{67E96751071A9F72}XOB/GAS/BOOT/NBC_BOOTs_FL.xob"
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   AreaType LoadoutBootsArea "{6A5178F253652A6B}" {
+   }
+   WornModel "{56FF15B82FE22B1E}XOB/GAS/BOOT/NBC_BOOTs.xob"
+   ItemModel "{67E96751071A9F72}XOB/GAS/BOOT/NBC_BOOTs_FL.xob"
+   SoundInt 610
+   OverrideMeshesToHide {
+    "Foot_L" "Foot_R"
+   }
+   DeflatedModel "{67E96751071A9F72}XOB/GAS/BOOT/NBC_BOOTs_FL.xob"
+  }
+  ActionsManagerComponent "{5244C34DEE7DBF9F}" {
+   ActionContexts {
+    UserActionContext "{5244C34DEE7DBF83}" {
+     Position PointInfo "{5244C34DEE7DBF80}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+  }
+ }
+ coords 1212.622 39.094 2839.711
+}

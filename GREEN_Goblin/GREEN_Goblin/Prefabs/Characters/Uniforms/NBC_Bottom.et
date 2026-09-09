@@ -1,0 +1,71 @@
+GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{75F30ADF95B42EF3}XOB/GAS/Butt'/NBC_BUTT_FL.xob"
+   PixelSizeScale 3
+  }
+  SCR_ItemOutfitFactionComponent "{6A5178C458222D8C}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6A5178C458222D87}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6A5178C458222DB9}" {
+      m_AffiliatedFactionKey "US"
+     }
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5B18D20B7AC00DA6}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{727E913C87275968}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform_Zipper.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{727E913C87275968}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform_Zipper.acp"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "NBC_Bottom"
+     Description "NBC"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.6
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraOffset 0 0.05 0
+      PreviewModel "{478FA8C5047BB42A}XOB/GAS/Butt'/NBC_BUTT.xob"
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 1600
+   MaxItemSize 10 10 10
+   m_fMaxWeight 10
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   AreaType LoadoutPantsArea "{6A5178C458222DB4}" {
+   }
+   WornModel "{478FA8C5047BB42A}XOB/GAS/Butt'/NBC_BUTT.xob"
+   ItemModel "{75F30ADF95B42EF3}XOB/GAS/Butt'/NBC_BUTT_FL.xob"
+   SoundInt 510
+   DeflatedModel "{75F30ADF95B42EF3}XOB/GAS/Butt'/NBC_BUTT_FL.xob"
+  }
+  ActionsManagerComponent "{5104869D194C6245}" {
+   ActionContexts {
+    UserActionContext "{5104869D194C624D}" {
+     Position PointInfo "{5104869D194C6273}" {
+      Offset 0 0.05 0
+     }
+    }
+   }
+  }
+ }
+ coords 1214.84 39.081 2840.303
+}
