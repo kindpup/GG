@@ -1,0 +1,4 @@
+MatPBRBasic {
+ AOScale 0.365
+ BCRMap "{D408D91764CDE9EC}XOB/Data/RH_BOYS/RED_metal_rim_bottom/RED_metal rim bottom_BCR.edds"
+}

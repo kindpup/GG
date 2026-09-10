@@ -1,0 +1,78 @@
+MetaFileClass {
+ Name "{3E6A4F6E8A2C140C}XOB/RH_BOYS.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A5436243F7DF407}" {
+     SourceMaterial "LED_glass"
+     AssignedMaterial "{BB1F2BFDC6CD74CE}XOB/Data/RH_BOYS/RED_LED_glass/RED_LED_glass.emat"
+    }
+    MaterialAssignClass "{6A5436243F7DF424}" {
+     SourceMaterial "green_smokes"
+     AssignedMaterial "{E73B4DB4F22B2B38}XOB/Data/RH_BOYS/RHBOYS_smokes/RHBOYS_smokes.emat"
+    }
+    MaterialAssignClass "{6A5436243F7DF426}" {
+     SourceMaterial "honeycombs"
+     AssignedMaterial "{493CA669501140E1}XOB/Data/RH_BOYS/RHBOYS_honeycombs/RHBOYS_honeycombs.emat"
+    }
+    MaterialAssignClass "{6A5436243F7DF4DC}" {
+     SourceMaterial "metal_rim_bottom"
+     AssignedMaterial "{F117C0DB2D44E1D5}XOB/Data/RH_BOYS/RED_metal_rim_bottom/RED_metal_rim_bottom.emat"
+    }
+    MaterialAssignClass "{6A5436243F7DF4DE}" {
+     SourceMaterial "metal_rim_bottom_blcack"
+     AssignedMaterial "{2386A42D202F8B08}XOB/Data/RH_BOYS/RED_metal_rim_bottom_blcack/RED_metal_rim_bottom_blcack.emat"
+    }
+    MaterialAssignClass "{6A5436243F7DF4D1}" {
+     SourceMaterial "orang_metal_part"
+     AssignedMaterial "{A159B1F6164F97F3}XOB/Data/RH_BOYS/RED_metal_part/RED_metal_part.emat"
+    }
+    MaterialAssignClass "{6A5436243F7DF4D6}" {
+     SourceMaterial "rivets"
+     AssignedMaterial "{5F3BD43052B5ACFD}XOB/Data/RH_BOYS/RED_rivets/RED_rivets.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "LED glass" {
+    }
+    MeshParam "green smokes" {
+    }
+    MeshParam honeycombs {
+    }
+    MeshParam "metal rim bottom" {
+    }
+    MeshParam "metal top and botom" {
+    }
+    MeshParam "orang metal part" {
+    }
+    MeshParam rivets {
+    }
+   }
+   Common TXOCommonClass "{6A5436243FC19E27}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.0.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A5436243FC19EA6}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A5436243FC19F47}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A5436243FC19F1A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A5436243FC19F06}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A5436243FC19FD0}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

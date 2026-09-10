@@ -1,0 +1,149 @@
+GenericEntity : "{8B55F8686833B12B}Prefabs/Weapons/Core/FragGrenade_Base.et" {
+ ID "1F80A73AAE197BBE"
+ components {
+  SoundComponent "{57227A5D228316FB}" {
+   Filenames + {
+    "{91AEEEEE5656F9FE}Sounds/Weapons/Grenades/_SharedData/Weapons_Grenade_Pin_Unpin.acp" "{AC072A5AAF5C6923}Sounds/Weapons/Grenades/M67/Weapons_M67_Fuze.acp"
+   }
+  }
+  TimerTriggerComponent "{6A5436265B0361F1}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6A5436265B0361E7}" {
+     EffectPrefab "{AE592496B67D2953}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.et"
+     ParticleEffect "{792FCE213B8DE11C}Particles/Weapon/RED.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{6A5436265B036199}" {
+    }
+   }
+   TIMER 4
+  }
+  GrenadeMoveComponent "{1F80A73ADE35BFF1}" {
+   InitSpeed 30
+   Mass 0.397
+   TimeToLive 4.2
+   ProjectileEffects {
+    ExplosionEffect "{65ED0010C8BA00FE}" {
+     EffectPrefab "{AE592496B67D2953}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.et"
+    }
+   }
+   BallisticTableConfig "{2FF9970869F6D99C}Configs/Weapons/AIBallisticTables/AIBT_Grenade_M67.conf"
+  }
+  InventoryItemComponent "{51FAA3E3CF6F087A}" {
+   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
+    ItemDisplayName WeaponUIInfo "{6A5436265B036190}" {
+     Name "#AR-Weapon_M67_Name"
+     Description "#AR-Weapon_M67_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{56CA88CA367A150F}" {
+     Weight 0.39
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     RestingUP Up
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284A988FFFB3DAC}" {
+     AnimationIKPose "{B26FF590CB1A7B6C}Assets/Weapons/Grenades/M67/anims/anm/p_m67_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D341931DB0B8}" {
+      CameraPreset Left
+      CameraDistanceToItem 0.7
+      FOV 10
+     }
+    }
+   }
+   WbPlacementFromAttributes 1
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{3E6A4F6E8A2C140C}XOB/RH_BOYS.xob"
+  }
+  RigidBody "{0F2AA6AEC948C9D6}" {
+   Mass 0.397
+  }
+  SCR_WeaponAttachmentsStorageComponent "{6A5436265B036188}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6A5436265B036189}" {
+    ItemDisplayName WeaponUIInfo "{6A5436265B03618A}" {
+     Name "The BOYS Bombs"
+     Description "RH BOYS Bombs"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A5436265B03618D}" {
+     Weight 0.39
+     SizeSetupStrategy Volume
+     ItemVolume 100
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6A5436265B03618E}" {
+     IkSettings {
+      ItemIKSettings "{6A5436265B036180}" {
+       MovementSpeedRange 0 3
+      }
+      ItemIKSettings "{6A5436265B036181}" {
+       Lowered 1
+       InAds 0
+       OutAds 0
+      }
+      ItemIKSettings "{6A5436265B036183}" {
+       Jumping 1
+       InAds 0
+       OutAds 0
+      }
+     }
+     AnimationInstance "{4FCBEA45CAEBC9C0}anims/workspaces/player/player_main_1h.asi"
+     AnimInstanceBlendDuration 0.3
+     ExcludeBonesBlend {
+      "RightHandProp"
+     }
+     AnimationIKPose "{B26FF590CB1A7B6C}Assets/Weapons/Grenades/M67/anims/anm/p_m67_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A5436265B036185}" {
+      CameraPreset Left
+      CameraDistanceToItem 1
+      FOV 8
+      AnimationInstance "{CD706CDA25024989}anims/workspaces/player/player_inventory_1handed.asi"
+     }
+    }
+    m_Size SLOT_1x1
+   }
+   StoragePurpose 0x20 0x1
+  }
+  WeaponComponent "{6D23670EA18BF513}" {
+   components {
+    BaseItemAnimationComponent "{6A5436265B036658}" {
+     AnimGraph "{3555B2B751CE338E}Assets/Weapons/Grenades/workspaces/Grenade_M67.agr"
+     AnimInstance "{D83FE76C4DC76160}Assets/Weapons/Grenades/workspaces/Grenade_M67.asi"
+     AnimInjection AnimationAttachmentInfo "{6A5436265B03665A}" {
+      AnimGraph "{3555B2B751CE338E}Assets/Weapons/Grenades/workspaces/Grenade_M67.agr"
+      AnimInstance "{6D0438DAFBBBA1ED}Assets/Weapons/Grenades/workspaces/Player_M67.asi"
+      BindingName "Grenade"
+     }
+     BindWithInjection 1
+     AutoVariablesBind 1
+     MeshVisibilityConfigurations {
+      MeshesVisibilitySwitchConfig "{6A5436265B03665D}" {
+       Event "HidePin"
+       Meshes {
+        "ring" "ringHolder"
+       }
+      }
+      MeshesVisibilitySwitchConfig "{6A5436265B03665E}" {
+       Event "ShowPin"
+       Meshes {
+        "ring" "ringHolder"
+       }
+       HideMesh 0
+      }
+     }
+    }
+   }
+   UIInfo GrenadeUIInfo "{172367262E10E042}" {
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5874D63E9B6514EF}" : "{5863F610823F04B7}Configs/WeaponInfo/MagazineIndicators/frag_m67.conf" {
+    }
+    m_sAmmoType "#AR-AmmoType_M67"
+   }
+  }
+  Hierarchy "{6A5436265B036653}" {
+  }
+ }
+}
